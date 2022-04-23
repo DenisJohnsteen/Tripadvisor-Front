@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripadvisor</title>
+    <link
+      rel="stylesheet"
+      href="/02/exercice02/tripadvisor-partie-1/assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/02/exercice02/tripadvisor-partie-1/assets/css/font.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/02/exercice02/tripadvisor-partie-1/assets/css/style.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f0623382f9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <i class="fa-solid fa-bars hidden-when-not-small"></i>
+        <img
+          class="logo"
+          src="/02/exercice02/tripadvisor-partie-1/assets/img/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+          alt="logo"
+        />
+        <i class="fa-solid fa-magnifying-glass hidden-when-not-small"></i>
+        <div class="container-input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" />
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-pen"></i>
+                <p>Avis</p></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-heart"></i>
+                <p>Voyages</p></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-bell"></i>
+                <p>Alertes</p></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <!-- <p class="login">Connectez-vous</p> -->
+                <button>Connectez-vous</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1><span>Explorez</span> Paris</h1>
+        <nav class="first-nav">
+          <ul>
+            <li>
+              <a href="#">
+                <p>Hôtel</p>
+                <i class="fa-solid fa-bed"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Locations de <br />vacances</p>
+                <i class="fa-solid fa-house"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Activités</p>
+                <i class="fa-solid fa-ticket"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Restaurants</p>
+                <i class="fa-solid fa-utensils"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>
+                  Forums de <br />
+                  voyage
+                </p>
+                <i class="fa-solid fa-message"></i>
+              </a>
+            </li>
+            <li class="optional-plane">
+              <a href="#">
+                <p>Vols</p>
+                <i class="fa-solid fa-plane-up"></i>
+              </a>
+            </li>
+            <li class="optional-ferry">
+              <a href="#">
+                <p>Croisières</p>
+                <i class="fa-solid fa-ferry"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Plus</p>
+                <i class="fa-solid fa-angles-right"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <section id="photos">
+          <img
+            class="photo1"
+            src="/02/exercice02/tripadvisor-partie-1/assets/img/photo1.jpg"
+            alt="picture1"
+          />
+          <div>
+            <img
+              class="photo2"
+              src="/02/exercice02/tripadvisor-partie-1/assets/img/photo2.jpg"
+              alt="picture2"
+            />
+            <img
+              class="photo3"
+              src="/02/exercice02/tripadvisor-partie-1/assets/img/photo3.jpg"
+              alt="picture3"
+            />
+          </div>
+        </section>
+        <div class="under-photos">
+          <nav class="second-nav">
+            <ul>
+              <li>
+                <a href="#">
+                  <p>Europe</p>
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>France</p>
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Île-de-France</p>
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Paris</p>
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <p>Visiter : Paris</p>
+        </div>
+
+        <section class="infos">
+          <div class="column1">
+            <h2>La Ville Lumière éblouit en tous points</h2>
+            <p>
+              Aucun autre endroit au monde ne fait autant rêver que Paris. La
+              ville séduit par son art, son architecture, sa culture et sa
+              cuisine, mais il y a aussi des merveilles plus discrètes qui
+              n’attendent qu’à être explorées : les ruelles pavées pittoresques,
+              les pâtisseries au coin de la rue et les petits bistrots douillets
+              qui vous invitent à boire un verre de beaujolais. Préparez-vous à
+              vous approprier Paris.
+            </p>
+          </div>
+
+          <!-- <div class="column2">
+            <h2>Paris : commencez à organiser!</h2>
+            <p>
+              Créez un voyage pour enrengistrer et organiser toutes vos idées et
+              les visualiser sur une carte
+            </p>
+            <button>Créez un voyage</button>
+            <img
+              src="/02/exercice02/tripadvisor-partie-1/assets/img/maps.png"
+              alt=""
+            />
+          </div> -->
+        </section>
+        <section>
+          <h2 class="titleParis">Paris : les immanquables</h2>
+          <div class="paris">
+            <div class="column1">
+              <h3>Se divertir</h3>
+              <p>
+                Des lieux à voir, des rues à explorer et des expériences
+                emblématiques à Paris.
+              </p>
+              <button>Tout afficher</button>
+            </div>
+            <div class="column2">
+              <div class="monumentsParis">
+                <div class="container1">
+                  <img
+                    class="background"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/eiffel-tower.jpg"
+                    alt="eiffel-tower"
+                  />
+                  <i class="fa-solid fa-heart"></i>
+                  <img
+                    class="traveller-choice"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/Tripadvisor-vert.png"
+                    alt=""
+                  />
+                </div>
+                <button>Eiffel Tower</button>
+                <div class="rateBloc">
+                  <img
+                    class="rate"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/rating.png"
+                    alt=""
+                  />
+                  <span>140 725</span>
+                </div>
+                <p>
+                  Tours et plateformes d'observation, Monuments & Points
+                  d'intérêt
+                </p>
+              </div>
+
+              <div class="monumentsParis">
+                <div class="container1">
+                  <img
+                    class="background"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/louvre.jpg"
+                    alt="eiffel-tower"
+                  />
+                  <i class="fa-solid fa-heart"></i>
+                  <img
+                    class="traveller-choice"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/Tripadvisor-vert.png"
+                    alt=""
+                  />
+                </div>
+                <button>Musée du Louvre</button>
+                <div class="rateBloc">
+                  <img
+                    class="rate"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/rating.png"
+                    alt=""
+                  />
+                  <span>101 238</span>
+                </div>
+                <p>Bâtiments architecturaux, Musées d'art</p>
+              </div>
+
+              <div class="monumentsParis">
+                <div class="container1">
+                  <img
+                    class="background"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/arc-de-triomphe-at-night.jpg"
+                    alt="eiffel-tower"
+                  />
+                  <i class="fa-solid fa-heart"></i>
+                  <img
+                    class="traveller-choice"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/Tripadvisor-vert.png"
+                    alt=""
+                  />
+                </div>
+                <button>Arc de Triomphe</button>
+                <div class="rateBloc">
+                  <img
+                    class="rate"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/rating.png"
+                    alt=""
+                  />
+                  <span>45 338</span>
+                </div>
+                <p>Bâtiments architecturaux, Sites historiques</p>
+              </div>
+
+              <div class="monumentsParis">
+                <div class="container1">
+                  <img
+                    class="background"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/musée-Rodin.jpg"
+                    alt="eiffel-tower"
+                  />
+                  <i class="fa-solid fa-heart"></i>
+                  <img
+                    class="traveller-choice"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/Tripadvisor-vert.png"
+                    alt=""
+                  />
+                </div>
+                <button>Musée Rodin</button>
+                <div class="rateBloc">
+                  <img
+                    class="rate"
+                    src="/02/exercice02/tripadvisor-partie-1/assets/img/rating.png"
+                    alt=""
+                  />
+                  <span>12 516</span>
+                </div>
+                <p>Musées spécialisés</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
